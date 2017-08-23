@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navigation{
+  background-color: green;
+height: 80px;
+}
+.navigation .store{
+  float: left;
+  line-height: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+  font-weight: bold;
+}
+footer{
+  background-color: tomato;
+  height: 20px;
+}
+ul{
+  float: right;
+}
+ul li {
+  display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.navigation ul li {
+    padding: 15px 15px 20px 0;
+}
+section{
+  height: 600px;
+}
+.sp{
+  float: left;
+  width: 50%;
+}
+header{
+  margin-top: 80px;
+}
+.butt {
+  text-align: center;
+}
+.butt button{
+  font-size: 24px;
+
+}
+.butt button a {
+  text-decoration: none;
+  color: orange;
+}
+.searchbox{
+  float: right;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 0;
+}
+p{
+  margin-top: 30px;
+  padding: 0 30px 50px 50px;
+  font-size: 24px;
+  text-align: justify;
+}
+img{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 30px 0 30px 30px;
+}
+p span{
+  color: blue;
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 32px;
+  padding: 30px 0 30px 0;
+}
+#search {
+  width: 200px;
+  border-right: none;
+  padding: 7px;
+  border: 1px solid black;
+}
+#submit{
+  padding: 7px;
+  background: #8bc34a;
+  border: 1px solid Black;
+  margin-left: -5px;
+  cursor: pointer;
+}
